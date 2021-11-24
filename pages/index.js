@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../componets/Header'
+import Nav from '../componets/Nav'
 // import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -13,7 +14,7 @@ export default function Home() {
       {/* header */}
       <Header />
       {/* nav */}
-
+      <Nav />
        {/* results componet section */}
     </div>
   )

@@ -9,11 +9,16 @@ module.exports = {
           greenBg: '#06202A',
         },
       },
+      // textColor: ['responsive', 'hover', 'focus', 'group-hover'],
     },
   
   },
   variants: {
-    extend: {},
+    extend: {
+      textColor: ['responsive', 'hover', 'focus', 'group-hover', 'active'],
+      animation: ['group-hover'],
+      // Icon: ['responsive', 'hover', 'focus', 'group-hover', 'active'],
+    },
   },
   plugins: [],
 }
