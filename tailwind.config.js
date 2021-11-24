@@ -20,5 +20,5 @@ module.exports = {
       // Icon: ['responsive', 'hover', 'focus', 'group-hover', 'active'],
     },
   },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar-hide')],
 }
