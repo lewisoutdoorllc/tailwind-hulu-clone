@@ -7,7 +7,6 @@ import requests from '../utils/requests'
 // import styles from '../styles/Home.module.css'
 
 export default function Home({results}) {
-  // console.log(results)
   return (
     <div>
       <Head>
